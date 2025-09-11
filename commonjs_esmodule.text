@@ -1,0 +1,21 @@
+Chức năng của CommonJS
+
+Là hệ thống module (cách chia code thành nhiều file, tái sử dụng, quản lý phụ thuộc).
+
+Xuất hiện đầu tiên trong Node.js → giúp bạn viết code không bị nhồi nhét vào một file duy nhất.
+
+Dùng cú pháp require (để nạp module) và module.exports (để xuất module).
+
+👉 Hiểu đơn giản: CommonJS cho phép bạn chia nhỏ chương trình thành các file riêng biệt và dùng lại chúng trong Node.js.
+
+Chức năng của ES Modules (ESM)
+
+Là chuẩn chính thức của JavaScript (ECMAScript) để quản lý module.
+
+Được hỗ trợ cả trình duyệt hiện đại và Node.js.
+
+Dùng cú pháp import / export.
+
+Có khả năng tree-shaking (loại bỏ code thừa khi build) và live binding (liên kết giá trị động).
+
+👉 Hiểu đơn giản: ESM cũng để chia nhỏ chương trình thành nhiều file, nhưng là cách chuẩn hóa và hiện đại hơn, tương thích cả trình duyệt lẫn Node.js.
